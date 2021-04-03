@@ -5,8 +5,8 @@
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter application.",
-    "orientation": "portrait-primary",
+    "description": "الاسكندرية للنقل البرى",
+    "orientation": "landscape-primary",
     "prefer_related_applications": false,
     "icons": [
         {
