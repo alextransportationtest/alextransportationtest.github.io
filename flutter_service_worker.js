@@ -29,8 +29,8 @@ const RESOURCES = {
 "assets/AssetManifest.json": "0a91b96b0f38e0d41aa9d663b61dd0dc",
 "assets/NOTICES": "e3a2840144bc698254cb850a2d66a8e0",
 "assets/FontManifest.json": "3eca9ec8db013f1a73526a92e8ee0096",
-"index.html": "2b5b0ff0a4f78076a10b9c91601030b4",
-"/": "2b5b0ff0a4f78076a10b9c91601030b4",
+"index.html": "29fff1211f45d1949e49bce47239a379",
+"/": "29fff1211f45d1949e49bce47239a379",
 "version.json": "cd604e94dea70763f094f36007484a6b"
 };
 
