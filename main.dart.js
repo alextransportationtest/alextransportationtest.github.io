@@ -32638,11 +32638,12 @@ return new F.Gy(P.u(s,s),P.u(s,s),P.u(s,s),["002","127","009","007","008","010",
 F.Gy.prototype={
 jp:function(){var s=0,r=P.aa(t.z),q=this,p
 var $async$jp=P.a1(function(a,b){if(a===1)return P.a7(b,r)
-while(true)switch(s){case 0:s=H.Uj(new P.bp(Date.now(),!1))===8&&!0?2:3
+while(true)switch(s){case 0:s=H.Uj(new P.bp(Date.now(),!1))===8&&!q.r?2:3
 break
 case 2:s=4
 return P.a6(G.LA(P.dA("https://alexshekat-default-rtdb.europe-west1.firebasedatabase.app/.json")).aF(0,new F.ZR(),t.P),$async$jp)
-case 4:case 3:if(H.Uj(new P.bp(Date.now(),!1))===9)q.r=!1
+case 4:q.r=!0
+case 3:if(H.Uj(new P.bp(Date.now(),!1))===9)q.r=!1
 p=new O.h9(P.aA(t.r))
 s=5
 return P.a6(p.tv("GET",P.dA("https://us-central1-alex-transport.cloudfunctions.net/api/gpsServer"),null).aF(0,new F.ZS(q,p),t.P),$async$jp)
