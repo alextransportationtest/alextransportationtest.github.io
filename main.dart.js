@@ -32897,11 +32897,11 @@ $1(a){return this.Fh(a)},
 Fh(a){var s=0,r=A.a4(t.P),q=this,p,o,n,m
 var $async$$1=A.a5(function(b,c){if(b===1)return A.a1(c,r)
 while(true)switch(s){case 0:m=A.bS(A.fK(A.fG(a.e).c.a.h(0,"charset")).b9(0,a.x))
-if(m<45e3)if(m>35e3)p="\u062a\u0646\u0628\u064a\u0647 \u0631\u0635\u064a\u062f \u0627\u0644\u0633\u0648\u0644\u0627\u0631 \u0627\u0642\u0644 \u0645\u0646 45000"
-else if(m>25e3)p="\u062a\u0646\u0628\u064a\u0647 \u0631\u0635\u064a\u062f \u0627\u0644\u0633\u0648\u0644\u0627\u0631 \u0627\u0642\u0644 \u0645\u0646 35000"
-else if(m>15e3)p="\u062a\u0646\u0628\u064a\u0647 \u0631\u0635\u064a\u062f \u0627\u0644\u0633\u0648\u0644\u0627\u0631 \u0627\u0642\u0644 \u0645\u0646 25000"
-else if(m>5000)p="\u062a\u0646\u0628\u064a\u0647 \u0631\u0635\u064a\u062f \u0627\u0644\u0633\u0648\u0644\u0627\u0631 \u0627\u0642\u0644 \u0645\u0646 15000"
-else p=m>0?"\u062a\u0646\u0628\u064a\u0647 \u0631\u0635\u064a\u062f \u0627\u0644\u0633\u0648\u0644\u0627\u0631 \u0627\u0642\u0644 \u0645\u0646 5000":null
+if(m<45e3)if(m>35e3)p="\u0631\u0635\u064a\u062f \u0627\u0644\u0633\u0648\u0644\u0627\u0631 \u0627\u0642\u0644 \u0645\u0646 45000"
+else if(m>25e3)p="\u0631\u0635\u064a\u062f \u0627\u0644\u0633\u0648\u0644\u0627\u0631 \u0627\u0642\u0644 \u0645\u0646 35000"
+else if(m>15e3)p="\u0631\u0635\u064a\u062f \u0627\u0644\u0633\u0648\u0644\u0627\u0631 \u0627\u0642\u0644 \u0645\u0646 25000"
+else if(m>5000)p="\u0631\u0635\u064a\u062f \u0627\u0644\u0633\u0648\u0644\u0627\u0631 \u0627\u0642\u0644 \u0645\u0646 15000"
+else p=m>0?"\u0631\u0635\u064a\u062f \u0627\u0644\u0633\u0648\u0644\u0627\u0631 \u0627\u0642\u0644 \u0645\u0646 5000":null
 else p=null
 s=p!=null&&p!==q.a.dx?2:3
 break
@@ -32909,7 +32909,7 @@ case 2:q.a.dx=p
 o=new A.eT(A.az(t.r))
 n=t.bi
 s=4
-return A.a0(o.fN("POST",A.d1("https://fcm.googleapis.com/fcm/send"),A.an(["content-type","application/json","Authorization",u.b],n,n),'  { "notification": {\n      "title": "\u0631\u0635\u064a\u062f \u0633\u0648\u0644\u0627\u0631 \u0642\u0644\u064a\u0644",\n      "body": "'+A.c(p)+'",\n      "text": "'+A.c(p)+'",\n      "icon" : "myicon",\n       \n    },\n      "data": {\n      \t"key":"solarAlarm",\n      "click_action": "FLUTTER_NOTIFICATION_CLICK" \n      }\n      ,\n  "android": {\n    "priority": "high"\n  },\n  "priority": 10\n      ,\n   \n      "to": "/topics/solarAlarm"\n  } \n  ',null).cV(new A.a0q(o)),$async$$1)
+return A.a0(o.fN("POST",A.d1("https://fcm.googleapis.com/fcm/send"),A.an(["content-type","application/json","Authorization",u.b],n,n),'  { "notification": {\n      "title": "\u062a\u0646\u0628\u064a\u0647 ... \u0627\u0646\u062e\u0641\u0627\u0636 \u0631\u0635\u064a\u062f \u0627\u0644\u0633\u0648\u0644\u0627\u0631",\n      "body": "'+A.c(p)+'",\n      "text": "'+A.c(p)+'",\n      "icon" : "myicon",\n       \n    },\n      "data": {\n      \t"key":"solarAlarm",\n      "click_action": "FLUTTER_NOTIFICATION_CLICK" \n      }\n      ,\n  "android": {\n    "priority": "high"\n  },\n  "priority": 10\n      ,\n   \n      "to": "/topics/solarAlarm"\n  } \n  ',null).cV(new A.a0q(o)),$async$$1)
 case 4:case 3:return A.a2(null,r)}})
 return A.a3($async$$1,r)},
 $S:13}
