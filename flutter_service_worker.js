@@ -28,9 +28,9 @@ const RESOURCES = {
 "assets/packages/awesome_dialog/assets/flare/warning.flr": "68898234dacef62093ae95ff4772509b",
 "assets/packages/awesome_dialog/assets/flare/warning_without_loop.flr": "c84f528c7e7afe91a929898988012291",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "115e937bb829a890521f72d2e664b632",
-"index.html": "ba29f47b0aca99692238b058a77b3ab8",
-"/": "ba29f47b0aca99692238b058a77b3ab8",
-"main.dart.js": "cdf92f7555bc7689ee36317ddae7e815",
+"index.html": "ea18c47ac74561dfe80375bf68fb5039",
+"/": "ea18c47ac74561dfe80375bf68fb5039",
+"main.dart.js": "d2df43a6a031d4f2a3901118ff9d5c53",
 "version.json": "cd604e94dea70763f094f36007484a6b"
 };
 
