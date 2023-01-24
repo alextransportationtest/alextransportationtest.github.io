@@ -28,13 +28,9 @@ const RESOURCES = {
 "assets/packages/awesome_dialog/assets/flare/warning.flr": "68898234dacef62093ae95ff4772509b",
 "assets/packages/awesome_dialog/assets/flare/warning_without_loop.flr": "c84f528c7e7afe91a929898988012291",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "115e937bb829a890521f72d2e664b632",
-"canvaskit/canvaskit.js": "c2b4e5f3d7a3d82aed024e7249a78487",
-"canvaskit/canvaskit.wasm": "4b83d89d9fecbea8ca46f2f760c5a9ba",
-"canvaskit/profiling/canvaskit.js": "ae2949af4efc61d28a4a80fffa1db900",
-"canvaskit/profiling/canvaskit.wasm": "95e736ab31147d1b2c7b25f11d4c32cd",
-"index.html": "af0a4150bc26c9ef9cc6e189fabe2d97",
-"/": "af0a4150bc26c9ef9cc6e189fabe2d97",
-"main.dart.js": "c4a746712a8cf44bd1e0542fdcb1d618",
+"index.html": "be7492a03e99c264847b5fe81c75efd4",
+"/": "be7492a03e99c264847b5fe81c75efd4",
+"main.dart.js": "ae5c7a6991f6893a28891f1e83026768",
 "version.json": "1c6215641e87923334ea8290345eded9"
 };
 
