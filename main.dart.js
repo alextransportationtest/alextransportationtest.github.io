@@ -34965,7 +34965,7 @@ m=t.DO
 p.push(new A.av("chatId","2"+b+"@c.us",m))
 p.push(B.Q1)
 n="\u0628\u064a\u0627\u0646 \u0631\u0635\u064a\u062f \u0627\u0644\u0633\u0648\u0644\u0627\u0631  "+A.ej(new A.a4(Date.now(),!1))+" / "+A.bI(new A.a4(Date.now(),!1))+" / "+A.c1(new A.a4(Date.now(),!1))+"- "+A.lV(new A.a4(Date.now(),!1))+":"
-p.push(new A.av("caption",n+(A.cI(new A.a4(Date.now(),!1))-12<=0?A.cI(new A.a4(Date.now(),!1)):A.cI(new A.a4(Date.now(),!1))-12)+" ",m))
+p.push(new A.av("caption",n+(A.cI(new A.a4(Date.now(),!1))-12<=0?A.cI(new A.a4(Date.now(),!1)):A.cI(new A.a4(Date.now(),!1))-12)+" \n Best regards.\n ORBYTE team",m))
 p=new A.Sd($,new A.DB(A.a([B.B9],t.EM)),$,new A.Qp(A.avv()),!1)
 n=A.aoI()
 p.EU$=n
