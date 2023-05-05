@@ -17,14 +17,15 @@ const RESOURCES = {
 "assets/fonts/Cairo.ttf": "2edd7ee30421da9700b12928ac0073db",
 "assets/fonts/Cairor.ttf": "ff8fa0e134d04ac50030e27cefcf7a4c",
 "assets/fonts/cc.ttf": "71b4de66bd8bb9eec0c1e27914c5f546",
-"assets/fonts/MaterialIcons-Regular.otf": "7e7a6cccddf6d7b20012a548461d5d81",
-"assets/NOTICES": "6c1860080f7976405a7048cd3ce383b6",
+"assets/fonts/MaterialIcons-Regular.otf": "95db9098c58fd6db106f1116bae85a0b",
+"assets/NOTICES": "ee3fe8004de949f2a85f88b3b71f7539",
+"assets/shaders/ink_sparkle.frag": "0c48e72830515a3f792c3dbe33b794c1",
 "favicon.png": "107a9e1198486c8ded5da70ef4975ea5",
 "icons/Icon-192.png": "0d069683bd629ee660f47dfba26783ff",
 "icons/Icon-512.png": "107a9e1198486c8ded5da70ef4975ea5",
-"index.html": "288a4c5a54e9065baa0f1578efa1f158",
-"/": "288a4c5a54e9065baa0f1578efa1f158",
-"main.dart.js": "195d88c3734cd6fe156dd07f4f908602",
+"index.html": "af32ce87c5b52d65c3a386f0de2221ed",
+"/": "af32ce87c5b52d65c3a386f0de2221ed",
+"main.dart.js": "8fe1889a6ecc2d50cf7caf5994e3dca8",
 "manifest.json": "bb8ec6f391223ec0b7e6aa77b2a4f2ec",
 "version.json": "1c6215641e87923334ea8290345eded9"
 };
@@ -32,10 +33,8 @@ const RESOURCES = {
 // The application shell files that are downloaded before a service worker can
 // start.
 const CORE = [
-  "/",
-"main.dart.js",
+  "main.dart.js",
 "index.html",
-"assets/NOTICES",
 "assets/AssetManifest.json",
 "assets/FontManifest.json"];
 // During install, the TEMP cache is populated with the application shell files.
@@ -134,9 +133,11 @@ self.addEventListener("fetch", (event) => {
     .then((cache) =>  {
       return cache.match(event.request).then((response) => {
         // Either respond with the cached resource, or perform a fetch and
-        // lazily populate the cache.
+        // lazily populate the cache only if the resource was successfully fetched.
         return response || fetch(event.request).then((response) => {
-          cache.put(event.request, response.clone());
+          if (response && Boolean(response.ok)) {
+            cache.put(event.request, response.clone());
+          }
           return response;
         });
       })
