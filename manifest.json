@@ -1,11 +1,11 @@
 {
-    "name": "الاسكندرية للنقل البرى",
-    "short_name": "الاسكندرية للنقل البرى",
+    "name": "ORBYTE",
+    "short_name": "ORBYTE",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "الاسكندرية للنقل البرى",
+    "description": "ORBYTE",
     "orientation": "landscape-primary",
     "prefer_related_applications": false,
     "icons": [
