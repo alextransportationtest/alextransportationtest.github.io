@@ -36437,7 +36437,7 @@ break
 case 8:a5=J.a1(J.i(J.i(p,o),"name"))
 a5.toString
 a.k(0,A.aa(a5,".",""),A.ad(["name",J.i(J.i(p,o),"name"),"lat",J.i(J.i(p,o),"lat"),"lng",J.i(J.i(p,o),"lng"),"speed",A.b9(A.c(J.i(J.i(p,o),"speed"))),"angle",J.i(J.i(p,o),"angle"),"date",Date.now()],e,d))
-a5=J.a1(J.i(J.i(p,o),"name")).toUpperCase()
+a5=J.a1(J.i(J.i(p,o),"name")).toLowerCase()
 s=A.aeb(a5,"avio",0)?11:12
 break
 case 11:a5=A.c(J.i(J.i(p,o),"name"))
