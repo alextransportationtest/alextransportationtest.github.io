@@ -39187,7 +39187,7 @@ if(s.a>0){r=q.a
 s.J(0,new A.a8J(r))
 Date.now()
 s=Date.now()
-if(A.dK(new A.Q(s,!1))>=15)s=A.dK(new A.Q(Date.now(),!1))>=30&&A.dK(new A.Q(Date.now(),!1))<45
+if(A.dK(new A.Q(s,!1))>=18)s=A.dK(new A.Q(Date.now(),!1))>=33&&A.dK(new A.Q(Date.now(),!1))<48
 else s=!0
 if(s){s=q.b
 s.el(r.c,"01228052246")
